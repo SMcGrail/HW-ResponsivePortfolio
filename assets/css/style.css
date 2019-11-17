@@ -3,8 +3,8 @@ html, body {
 }
 
 body {
-    background-image: url("/assets/images/prism.png");
-    /* background-image: url("C:/Users/critt/Homework/SMcGrail.github.io/assets/images/prism.png"); */
+    /* background-image: url("/assets/images/prism.png"); */
+    background-image: url("C:/Users/critt/Homework/SMcGrail.github.io/assets/images/prism.png");
     background-color: lightgray;
     font-family: 'Montserrat', sans-serif;
     color: #777777;
@@ -18,26 +18,100 @@ body {
     background-color: #3d0547;
 }
 
-.navbar-brand:link, .navbar-brand:active {
+.navbar {
+    border-bottom: solid 5px #666666;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+.navbar-name {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+.navbar-name:link, .navbar-name:active, .navbar-name:visited {
     color: white;
 }
 
-.navbar-brand:hover {
-    color: #777777;
-}
 
-.navbar-brand:visited {
+
+.nav-list:link, .nav-list:active, .nav-list:visited {
     color: white;
 }
 
-.nav-item:link, .nav-item:active {
-    color: white;
+.nav-list:hover, .navbar-item:hover {
+    color: #b9b9b9;
+    text-decoration: none;
+}
+
+
+
+.navbar-item {
+    margin: 5px;
+
+}
+
+#container2 {
+    margin-top: 10px;
+}
+
+#aboutMe {
+    position: relative;
 }
 
 .me-photo {
-    height: 200px;
-    width: auto;
+    max-width: 200px;
+    height: auto;
+
 }
+
+/*portfolio thmbnail images*/
+.projectLink {
+    position: relative;
+    /* display: inline-block; */
+    float: left; (this works the same)
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.projectText {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    width: 150px;
+    padding: 10px 10px 10px 0;
+    margin: 0;
+    background-color: #3d0547;
+    color: #ffffff;
+    /* font-weight: bold; */
+}
+
+.projectText:link, .projectText:visited {
+    background-color: #3d0547;
+    text-decoration: none;
+}
+
+.projectText:hover, .projectText:active {
+    background-color: #666666;
+}
+
+
 
 /*main footer*/
 .footer {

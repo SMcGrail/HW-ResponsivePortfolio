@@ -116,8 +116,8 @@ a:hover, a:active {
     position: relative;
     display: inline-block;
     /* float: left; (this works the same)*/
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: auto;
     text-align: center;
     padding: 10px;
     margin: 10px;
@@ -128,7 +128,7 @@ a:hover, a:active {
     position: absolute;
     bottom: 20px;
     left: 10px;
-    width: 140px;
+    width: auto;
     padding: 10px 10px 10px 0;
     margin: 0;
     background-color: #3d0547;
