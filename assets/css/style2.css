@@ -1,0 +1,171 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url("/assets/images/prism.png");
+    /* background-image: url("C:/Users/critt/Homework/SMcGrail.github.io/assets/images/prism.png"); */
+    background-color: lightgray;
+    font-family: 'Montserrat', sans-serif;
+    color: #777777;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0;
+    flex: 1 0 auto;
+
+}
+
+/*Main Header*/
+.topHeader {
+    position: static;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    padding-top: 0;
+    margin: 0;
+    border-bottom: solid;
+    border-color:#3d0547;
+    background-color: #ffffff;
+
+}
+
+#headerName {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin: 30px 10px 0 150px;
+    background-color: #3d0547;
+    /* text-shadow: 2px 2px #666666; */
+}
+
+#name {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+/*Navigation bar*/
+.nav {
+    position: relative;
+    float: right;
+    padding: 50px;
+    margin: auto;
+}
+
+a:link, a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #3d0547;
+}
+
+/*Content window*/
+.mainContent {
+    position: relative;
+    display: inline-block;
+    width: 960px;
+    padding: 10px;
+    margin: 20px 20px 20px 150px;
+    border: solid 2px #cccccc;
+    background-color: #ffffff;
+}
+
+#mainContentHeader {
+    color: #3d0547;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0 20px 0 20px;
+    /* text-shadow: 1px 1px #666666; */
+}
+
+/* #hrMainContent {
+    border-width: 1px;
+    border-color: #cccccc;
+} */
+
+#contentSection {
+    position: relative;
+    display: inline-block;
+    width: 900px;
+    padding: 20px;
+    margin: 20px;
+    border-top: solid 2px #cccccc;
+    background-color: #ffffff;
+
+}
+
+#myPhoto {
+    float: left;
+    height: 200px;
+    width: auto;
+    padding: 0 10px 0 0;
+
+}
+
+/*portfolio thmbnail images*/
+.projectLink {
+    position: relative;
+    display: inline-block;
+    /* float: left; (this works the same)*/
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.projectText {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    width: 140px;
+    padding: 10px 10px 10px 0;
+    margin: 0;
+    background-color: #3d0547;
+    color: #ffffff;
+    /* font-weight: bold; */
+}
+
+.projectText:link, .projectText:visited {
+    background-color: #3d0547;
+    text-decoration: none;
+}
+
+.projectText:hover, .projectText:active {
+    background-color: #666666;
+}
+
+/*Contact page elements*/
+.submitButton {
+    background-color: #3d0547;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 9px;
+}
+.submitButton:hover {
+    background-color: #666666;
+}
+
+/*main footer*/
+.footer {
+    position: sticky;
+    width: 100%;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #666666;
+    border-top: solid 8px #3d0547;
+    text-align: center;
+    font-size: 12px;
+    color: #cccccc;
+}
