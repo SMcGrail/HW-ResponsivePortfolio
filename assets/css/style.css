@@ -130,7 +130,22 @@ body {
     background-color: #666666;
 }
 
+.customBtn {
+    margin: 10px 10px 10px 10px;
+    color: white;
+    border: solid 1px white;
+}
 
+.customBtn:hover, .custombtn:active {
+    background-color:#3d0547;
+    color: white;
+    border-color:white;
+}
+
+.customBtn:link, .customBtn:visited {
+    background-color: #3d0547;
+    color: white;
+}
 
 /*main footer*/
 .footer {

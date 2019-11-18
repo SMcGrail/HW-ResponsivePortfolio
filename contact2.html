@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Shauna McGrail - About</title>
+    <title>Shauna McGrail - Contact Me</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -40,7 +40,7 @@
                     <a class="nav-list" href="portfolio2.html">Portfolio</a>
                 </li>
                 <li class="navbar-item">
-                    <a class="nav-list" href="contact.html">Contact</a>
+                    <a class="nav-list" href="contact2.html">Contact</a>
                 </li>
 
 
@@ -50,21 +50,28 @@
     <!--content starts here-->
     <div class="container" id="container2">
         <div class="row">
-            <div class="col-xs-12 col-md-4 col-lg-3">
-                <img id="me-photo" src="assets/images/me-photo.jpg" class="img-fluid">
-            </div>
-            <div class="col-xs-12 col-md-8 col-lg-8">
-                <form>
-                    Name:<br>
-                    <input type="text" name="firstname" size="50"><br><br>
-                    Email:<br>
-                    <input type="email" name="email" size="50"><br><br>
-                    Message:<br>
-                    <textarea rows="10" cols="51">
-
-                                </textarea><br>
-                    <input class="submitButton" type="submit" value="submit">
-                </form>
+            <div class="col-xs-12 col-md-8 col-lg-12">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Name:</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Email:</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Messsage:</span>
+                    </div>
+                    <textarea class="form-control" aria-label="With textarea" rows="7"></textarea>
+                </div>
+                <button type="button" class="btn btn-outline-dark customBtn">Submit</button>
             </div>
         </div>
     </div>
