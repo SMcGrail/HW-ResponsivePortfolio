@@ -3,8 +3,8 @@ html, body {
 }
 
 body {
-     background-image: url("/assets/images/prism.png");
-     /* background-image: url("C:/Users/critt/Homework/SMcGrail.github.io/assets/images/prism.png"); */
+     /* background-image: url("/assets/images/prism.png"); */
+     background-image: url("C:/Users/critt/Homework/SMcGrail.github.io/assets/images/prism.png");
     background-color: lightgray;
     font-family: 'Montserrat', sans-serif;
     color: #777777;
@@ -71,16 +71,33 @@ body {
     text-decoration: none;
 }
 
-
+.nav-list {
+    font-size: 20px;
+}
 
 .navbar-item {
     margin: 5px;
 
 }
 
+#mainContentHeader {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 #container2 {
     margin-top: 10px;
     
+}
+
+#contentSection {
+    border-top: solid 2px white;
+    padding: 20px;
+}
+
+.messageForm {
+    color:white;
+    font-size: 20px;
 }
 
 /* .aboutBox {
