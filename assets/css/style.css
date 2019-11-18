@@ -3,13 +3,18 @@ html, body {
 }
 
 body {
-     background-image: url("/assets/images/prism.png");
-     /* background-image: url("C:/Users/critt/Homework/SMcGrail.github.io/assets/images/prism.png"); */
+     /* background-image: url("/assets/images/prism.png"); */
+     background-image: url("C:/Users/critt/Homework/SMcGrail.github.io/assets/images/prism.png");
     background-color: lightgray;
     font-family: 'Montserrat', sans-serif;
     color: #777777;
     margin: auto;
     display: flex;
+    flex-direction: column;
+
+}
+
+.flex-column {
     flex-direction: column;
 
 }
@@ -23,9 +28,11 @@ body {
     border-bottom: solid 2px #666666;
 }
 
-.navbar-toggler {
+/* .navbar-toggler {
     background-color: white;
-}
+} */
+
+
 .navbar-name {
     display: inline-block;
     padding-top: .3125rem;
