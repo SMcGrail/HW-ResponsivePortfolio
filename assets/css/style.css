@@ -83,7 +83,7 @@ body {
  .aboutMe {
     /* position: relative; */
     color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 #me-photo {
@@ -98,9 +98,8 @@ body {
 .projectLink {
     position: relative;
     /* display: inline-block; */
-    float: left; 
     max-width: 500px;
-    height: auto;
+    min-width: 150px;
     text-align: center;
     padding: 10px;
     margin: 10px;
@@ -113,12 +112,14 @@ body {
     bottom: 20px;
     left: 10px;
     max-width: 500px;
+    min-width: 130px;
     padding: 10px 10px 10px 0;
     margin: 0;
     background-color: #3d0547;
     color: #ffffff;
     /* font-weight: bold; */
 }
+
 
 .projectText:link, .projectText:visited {
     background-color: #3d0547;

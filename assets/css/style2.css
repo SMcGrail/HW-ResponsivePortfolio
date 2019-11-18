@@ -128,12 +128,17 @@ a:hover, a:active {
     position: absolute;
     bottom: 20px;
     left: 10px;
-    width: auto;
+    width: 500px;
     padding: 10px 10px 10px 0;
     margin: 0;
     background-color: #3d0547;
     color: #ffffff;
     /* font-weight: bold; */
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
 }
 
 .projectText:link, .projectText:visited {
