@@ -3,8 +3,8 @@ html, body {
 }
 
 body {
-     background-image: url("/assets/images/prism.png");
-     /* background-image: url("C:/Users/critt/Homework/SMcGrail.github.io/assets/images/prism.png"); */
+     /* background-image: url("/assets/images/prism.png"); */
+     background-image: url("C:/Users/critt/Homework/SMcGrail.github.io/assets/images/prism.png");
     background-color: lightgray;
     font-family: 'Montserrat', sans-serif;
     color: #777777;
@@ -133,32 +133,35 @@ body {
     min-width: 150px;
     text-align: center;
     padding: 10px;
-    margin: 10px;
+    margin: 30px;
 
 }
 
-
 .projectText {
-    position: absolute;
+    position: relative;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
     bottom: 20px;
-    left: 10px;
+    /* left: 25px; */
     max-width: 500px;
     min-width: 130px;
     padding: 10px 10px 10px 0;
-    margin: 0;
+    margin: -40px 0 -40px 0;
     background-color: #3d0547;
     color: #ffffff;
-    /* font-weight: bold; */
+   /* font-weight: bold; */
 }
 
 
 .projectText:link, .projectText:visited {
     background-color: #3d0547;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .projectText:hover, .projectText:active {
     background-color: #666666;
+    text-decoration: none !important;
 }
 
 .customBtn {
