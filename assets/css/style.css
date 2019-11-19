@@ -4,7 +4,7 @@ html, body {
 
 body {
      background-image: url("/assets/images/prism.png");
-     /* background-image: url("C:/Users/critt/Homework/SMcGrail.github.io/assets/images/prism.png"); */
+     background-image: url("C:/Users/critt/Homework/SMcGrail.github.io/assets/images/prism.png");
     background-color: lightgray;
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -48,14 +48,20 @@ body {
 }
 
 
-.navbar-name:link, .navbar-name:active, .navbar-name:visited {
+/* .navbar-name:link, .navbar-name:active, .navbar-name:visited {
+    color: white;
+} */
+
+
+
+.nav-list:link, .nav-list:visited {
     color: white;
 }
 
 
-
-.nav-list:link, .nav-list:active, .nav-list:visited {
-    color: white;
+.active {
+    font-style: italic;
+    
 }
 
 .nav-list:hover, .navbar-item:hover {
@@ -68,13 +74,14 @@ body {
 }
 
 .navbar-item {
-    margin: 5px;
+    margin: 0 8px 0 8px;
 
 }
 
 #mainContentHeader {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 #container2 {
