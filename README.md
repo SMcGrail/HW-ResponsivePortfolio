@@ -8,8 +8,8 @@ Homework assignment for responsive portfolio.
 </p>
 
 <p>
-<img src="https://github.com/SMcGrail/HW-ResponsivePortfolio/blob/master/assets/images/Capture-About-Me-Mobile.JPG">
-<img src="https://github.com/SMcGrail/HW-ResponsivePortfolio/blob/master/assets/images/Capture-About-Me-Mobile.JPG">
-<img src="https://github.com/SMcGrail/HW-ResponsivePortfolio/blob/master/assets/images/Capture-About-Me-Mobile.JPG">
+<img src="https://github.com/SMcGrail/HW-ResponsivePortfolio/blob/master/assets/images/Capture-About-Me-Large.JPG">
+<img src="https://github.com/SMcGrail/HW-ResponsivePortfolio/blob/master/assets/images/Capture-Profile-Large.JPG">
+<img src="https://github.com/SMcGrail/HW-ResponsivePortfolio/blob/master/assets/images/Capture-Contact-Large.JPG">
 </p>
 
