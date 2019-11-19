@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-     /* background-image: url("/assets/images/prism.png"); */
+     background-image: url("/assets/images/prism.png");
      background-image: url("C:/Users/critt/Homework/SMcGrail.github.io/assets/images/prism.png");
     background-color: lightgray;
     font-family: 'Montserrat', sans-serif;
