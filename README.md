@@ -1,7 +1,8 @@
 # HW-Portfolio
 Homework assignment for responsive portfolio.
 <hr>
-<p>Used HTML, CSS, and Bootstrap to create a responsive layout for professional portfolio.
+<p>Used HTML, CSS, and Bootstrap to create a responsive layout for professional portfolio.</p>
+https://smcgrail.github.io/HW-ResponsivePortfolio/
 <p>
 <img src="https://github.com/SMcGrail/HW-ResponsivePortfolio/blob/master/assets/images/Capture-About-Me-Mobile.JPG">
 <img src="https://github.com/SMcGrail/HW-ResponsivePortfolio/blob/master/assets/images/Capture-Portfolio-Mobile.JPG">
